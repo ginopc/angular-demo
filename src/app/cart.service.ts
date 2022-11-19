@@ -20,7 +20,7 @@ export class CartService {
     return this.items;
   }
 
-  clearItem(item : Product) {
+  clearCart() {
     this.items = [];
     console.log('Cart cleared!')
     return this.items;
